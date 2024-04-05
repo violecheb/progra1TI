@@ -1,11 +1,35 @@
 /* estilos generales */
-header{
+header {
     background-color: rgb(53, 53, 160);
+
 }
+
 .logo {
     width: 20%;
     height: 20%;
 }
+
+.letraheader {
+    color: white;
+}
+
+/*estilos home*/
+.imghome {
+    width: 20%;
+    height: 20%;
+
+}
+section{
+    display: flex;
+}
+.article-home{
+    
+    padding: 15px;
+   flex-wrap: nowrap;
+ 
+   
+}
+
 
 
 /* estilo para producto */
