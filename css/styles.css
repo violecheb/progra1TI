@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 /* estilos header */
 header {
     background-color: rgb(59, 139, 151);
@@ -28,20 +32,15 @@ header {
     font-family: "Bebas Neue", sans-serif;
     font-weight: 400;
     font-style: normal;
-    position: relative;
-    left: 1000px;
+    flex-wrap: nowrap;
+    align-self: flex-start;
 }
 
 .logo {
     width: 10%;
     height: 10%;
     margin: 5px;
-    position: relative;
-    left: 43%;
-}
-
-* {
-    box-sizing: border-box;
+    align-self: center;
 }
 
 .letraheader {
