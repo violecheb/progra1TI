@@ -4,47 +4,56 @@
 
 /* estilos header */
 header {
-    background-color: rgb(59, 139, 151);
+    background-color: rgb(59, 139, 151, 0.50);
 
 }
+
+.header1{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.logo{
+    align-self: center;
+    width: 10%;
+    object-fit: contain;
+    margin-left: 43%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.menu1{
+    align-self: self-start;
+    list-style-type: none;
+    color: rgb(118, 69, 69);
+    margin-left: 30%;
+    line-height: 200%;
+    font-size: 90%;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style:  normal;
+}
+
+.header2{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color:rgba(234, 234, 234, 0.2);
+}
+
 
 .categorias {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-evenly;
+    list-style-type: none;
     text-decoration: none;
-    color: white;
+    color: rgb(255, 255, 255);
     font-family: "Bebas Neue", sans-serif;
     font-weight: 400;
     font-style: normal;
-}
-
-.superior {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-}
-
-.supdersty {
-    text-decoration: none;
-    color: white;
-    font-family: "Bebas Neue", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    flex-wrap: nowrap;
-    align-self: flex-start;
-}
-
-.logo {
-    width: 10%;
-    height: 10%;
-    margin: 5px;
-    align-self: center;
-}
-
-.letraheader {
-    color: white;
+    font-size: 120%;
+    margin-right: 5%;
 }
 
 /*estilos home*/
