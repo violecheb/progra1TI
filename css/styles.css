@@ -12,6 +12,7 @@ header {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
+    align-items: center;
 }
 
 .logo{
@@ -34,6 +35,29 @@ header {
     font-optical-sizing: auto;
     font-weight: <weight>;
     font-style:  normal;
+}
+
+.iconos{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-self: flex-start;
+    width: 40%;
+
+}
+
+.logicon{
+    width: 6%;
+    object-fit: contain;
+}
+.registericon{
+    width: 3%;
+    object-fit: contain;
+}
+
+.carritoicon{
+    width: 6%;
+    object-fit: contain;
 }
 
 .header2{
@@ -135,21 +159,83 @@ header {
 
 
 
-/* estilo para producto */
-.simonerochaimg1 {
-    width: 30%;
-    height: 30%;
-}
-
-.simonerochaimg2 {
-    width: 400px;
-}
-
-.producto {
+/* estilos para producto */
+.destacado{
+    display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
-    margin-top: 10px;
+    margin-top: 0.5%;
+}
+.im1{
+    width: 36%;
+    object-fit: contain;
+    background-color: rgba(217, 217, 217, 0.3);
+}
+.im2{
+    width: 36%;
+    object-fit: contain;
+    background-color: rgba(217, 217, 217, 0.3);
+    margin-left: 1%;
 }
 
-.nt {
-    color: grey;
+.derechafotos{
+    margin-left: 1%;
+    align-items: first start;
+}
+.nv{
+    color: rgb(109, 109, 109);
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-size: 90%;
+}
+.simone{
+    margin-top: -4%;
+    color: rgb(0, 0, 0);
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing:0.03cm;
+}
+.des1{
+    margin-top: -5%;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-size: 90%;
+}
+.des2{
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-size: 90%;
+}
+
+.bloquesimone2{
+    margin-top: 15%;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-size: 90%;
+}
+.bloquesimone3{
+    margin-top: 25%;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-size: 90%;
+}
+.rm{
+    font-size: 90%;
+    color: rgb(109, 109, 109);
+    margin-top: -5%;
+}
+
+.impuestos{
+    margin-top: -5%;
 }
