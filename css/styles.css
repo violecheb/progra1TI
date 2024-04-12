@@ -1,34 +1,34 @@
 /* estilos header */
 header {
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(59, 139, 151);
 
 }
 
-.categorias{
+.categorias {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: space-evenly;     
+    justify-content: space-evenly;
     text-decoration: none;
-    color: wheat;
-    font-family: "Bebas Neue", sans-serif;
-    font-weight: 400;
-    font-style: normal; 
-}
-
-.superior{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-}
-
-.supdersty{
-    text-decoration: none;
-    color: wheat;
+    color: white;
     font-family: "Bebas Neue", sans-serif;
     font-weight: 400;
     font-style: normal;
-    position:relative;
+}
+
+.superior {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.supdersty {
+    text-decoration: none;
+    color: white;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    position: relative;
     left: 1000px;
 }
 
@@ -40,9 +40,10 @@ header {
     left: 43%;
 }
 
-*{
+* {
     box-sizing: border-box;
 }
+
 .letraheader {
     color: white;
 }
@@ -53,31 +54,36 @@ header {
     height: 20%;
 
 }
-section{
+
+section {
     display: flex;
 }
-.article-home{
-    
+
+.article-home {
+
     padding: 15px;
-   flex-wrap: nowrap;
- 
-   
+    flex-wrap: nowrap;
+
+
 }
 
 
 
 /* estilo para producto */
-.simonerochaimg1{
+.simonerochaimg1 {
     width: 30%;
     height: 30%;
 }
-.simonerochaimg2{
+
+.simonerochaimg2 {
     width: 400px;
 }
-.producto{
+
+.producto {
     flex-direction: row;
     margin-top: 10px;
 }
-.nt{
+
+.nt {
     color: grey;
 }
