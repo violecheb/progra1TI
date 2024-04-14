@@ -94,85 +94,75 @@ header {
     flex-wrap: nowrap;
     background-color: rgba(217, 217, 217,0.3);
     border: white solid 20px;
-    width: 40%;
 }
 
 .homearticlebotas {
     padding: 15px;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     background-color: rgba(217, 217, 217,0.3); 
     border: white solid 20px;
-    width: 40%;
 }
 .homearticlecartera {
     padding: 15px;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     background-color: rgba(217, 217, 217,0.3); 
     border: white solid 20px;
-    width: 40%;
 }
 .homearticleaccesorio {
     padding: 15px;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     background-color: rgba(217, 217, 217,0.3); 
     border: white solid 20px;
-    width: 40%;
 }
-.homearticletaco{
+.homearticlechaleco{
     padding: 15px;
     flex-wrap: nowrap;
     background-color: rgba(217, 217, 217,0.3); 
     border: white solid 20px;
-    width: 40%;
 }
 .homearticleremera {
     padding: 15px;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     background-color: rgba(217, 217, 217,0.3); 
     border: white solid 20px;
-    width: 40%;
 }
 .homearticlezapato{
     padding: 15px;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     background-color: rgba(217, 217, 217,0.3); 
     border: rgb(254, 254, 254) solid 20px;
-    width: 40%;
 }
 .homearticleapple{
-    padding: 15px;
-    flex-wrap: wrap;
-    background-color: rgba(217, 217, 217,0.3); 
-    border: white solid 20px;
-    width: 40%;
-}
-.homearticlesmartwatch {
-    padding: 15px;
-    flex-wrap: wrap;
-    background-color: rgba(217, 217, 217,0.3); 
-    border: white solid 20px;
-    width: 40%;
-}
-.homearticlecamisa{
     padding: 15px;
     flex-wrap: nowrap;
     background-color: rgba(217, 217, 217,0.3); 
     border: white solid 20px;
-    width: 40%;
+}
+.homearticlesmartwatch {
+    padding: 15px;
+    flex-wrap: nowrap;
+    background-color: rgba(217, 217, 217,0.3); 
+    border: white solid 20px;
+}
+.homearticlemaletin{
+    padding: 15px;
+    flex-wrap: nowrap;
+    background-color: rgba(217, 217, 217,0.3); 
+    border: white solid 20px;
 }
 
 .sectionhome3{
     display: flex;
     flex-direction: row; 
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
 }
 
 .homearticlevestido{
     padding: 15px;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     background-color: rgba(217, 217, 217,0.3); 
     border: white solid 20px;
-    width: 40%;
+
 }
 .homepreciosale{
     text-decoration: line-through;
@@ -182,33 +172,30 @@ header {
 }
 .homearticlekaws{
     padding: 15px;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     background-color: rgba(217, 217, 217,0.3); 
     border: white solid 20px;
-    width: 40%;
 }
 .homearticlecampera{
     padding: 15px;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     background-color: rgba(217, 217, 217,0.3); 
     border: white solid 20px;
-    width: 40%;
+ 
 }
 .homearticleimpresora{
     padding: 15px;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     background-color: rgba(217, 217, 217,0.3); 
     border: white solid 20px;
-    width: 40%;
+
 }
 
 .homearticletacon{
     padding: 15px;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     background-color: rgba(217, 217, 217,0.3); 
     border: white solid 20px;
-    width: 40%;
-    height: 40%;
 }
 
 
