@@ -140,8 +140,22 @@ header {
     border: white solid 20px;
 }
 
-/*estilos parea category*/
-
+/*estilos para category*/
+.fila1cat{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: column;
+    width: 30%;
+}
+.sacocat{
+    width: 10%;
+}
+.botascat{
+    width: 10%;
+}
+.carteracat{
+    width: 5%;
+}
 
 
 
