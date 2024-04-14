@@ -201,25 +201,66 @@ header {
 
 
 /*estilos para category*/
-.filacat{
+.filacat1{
     display: flex;
     flex-direction: row;
+    flex-wrap: nowrap;
+    width: 100%;
 }
 .imgcat{
-    height: 30%;
     object-fit: contain;
+    width: 100%;
 }
 .sacocat{
-    flex-wrap: nowrap;
+    padding: 15px;
+    background-color: rgba(217, 217, 217,0.3); 
+    border: white solid 20px;
+    width: 30%;
 }
 
 .botascat{
-    flex-wrap: nowrap;
+    padding: 15px;
+    background-color: rgba(217, 217, 217,0.3); 
+    border: white solid 20px;
+    width: 30%;
 }
 .carteracat{
-    flex-wrap: nowrap;
+    padding: 15px;
+    background-color: rgba(217, 217, 217,0.3); 
+    border: white solid 20px;
+    width: 30%;
+}
+.guantescat{
+    padding: 15px;
+    background-color: rgba(217, 217, 217,0.3); 
+    border: white solid 20px;
+    width: 30%;
 }
 
+.filacat2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width:84%;
+}
+.taconcat{
+    padding: 15px;
+    background-color: rgba(217, 217, 217,0.3); 
+    border: white solid 20px;
+    width: 30%;
+}
+.florescat{
+    padding: 15px;
+    background-color: rgba(217, 217, 217,0.3); 
+    border: white solid 20px;
+    width: 30%;
+}
+.simonecat{
+    padding: 15px;
+    background-color: rgba(217, 217, 217,0.3); 
+    border: white solid 20px;
+    width: 30%;
+}
 
 
 
