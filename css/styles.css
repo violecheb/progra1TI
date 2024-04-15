@@ -70,23 +70,24 @@ header {
 }
 
 
-/*estilos home*/
+/*ESTILOS HOME*/
 .imghome {
     object-fit: contain;
-    width: 60%;
-    height: 60%;
-
+    width: 100%;
 }
 
 .sectionhome1 {
     display: flex;
     flex-direction: row;
-    
+    flex-wrap: nowrap;
+    width: 100%;
 }
 
 .sectionhome2{
     display: flex;
     flex-direction: row;
+    flex-wrap: nowrap;
+    width: 100%;
 }
 
 .homearticlesimona {
@@ -114,18 +115,70 @@ header {
     background-color: rgba(217, 217, 217,0.3); 
     border: white solid 20px;
 }
+
 .homearticlechaleco{
     padding: 15px;
     flex-wrap: nowrap;
     background-color: rgba(217, 217, 217,0.3); 
     border: white solid 20px;
+    width: 25%;
 }
+.tit{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing:0.03cm;
+}
+.des{
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-size: 80%;
+    margin-top: -7%;
+}
+.p{
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+.bot{
+    border: none;
+    background-color: rgba(0, 0, 0);
+    color:rgba(255, 255, 255);
+    padding: 5%;
+    text-decoration: none;
+    font-size: 80%;
+    border-radius: 12px;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+.ver{
+    border: none;
+    background-color: rgba(0, 0, 0);
+    color:rgba(255, 255, 255);
+    padding: 5%;
+    text-decoration: none;
+    font-size: 80%;
+    border-radius: 12px;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    margin-top: 10%;
+}
+
+/*camisa*/
 .homearticleremera {
     padding: 15px;
     flex-wrap: nowrap;
     background-color: rgba(217, 217, 217,0.3); 
     border: white solid 20px;
 }
+
 .homearticlezapato{
     padding: 15px;
     flex-wrap: nowrap;
@@ -149,12 +202,14 @@ header {
     flex-wrap: nowrap;
     background-color: rgba(217, 217, 217,0.3); 
     border: white solid 20px;
+    width: 25%;
 }
 
 .sectionhome3{
     display: flex;
-    flex-direction: row; 
+    flex-direction: row;
     flex-wrap: nowrap;
+    width: 100%;
 }
 
 .homearticlevestido{
@@ -188,7 +243,7 @@ header {
     flex-wrap: nowrap;
     background-color: rgba(217, 217, 217,0.3); 
     border: white solid 20px;
-
+    width: 25%;
 }
 
 .homearticletacon{
@@ -200,7 +255,11 @@ header {
 
 
 
-/*estilos para category*/
+/*ESTILOS CATEGORY*/
+.mujer{
+    color: rgb(0, 0, 0);
+}
+
 .filacat1{
     display: flex;
     flex-direction: row;
@@ -211,12 +270,63 @@ header {
     object-fit: contain;
     width: 100%;
 }
+
+/*saco*/
 .sacocat{
     padding: 15px;
     background-color: rgba(217, 217, 217,0.3); 
     border: white solid 20px;
     width: 30%;
 }
+.sacotit{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing:0.03cm;
+}
+.sacodes{
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-size: 80%;
+    margin-top: -7%;
+}
+.sacop{
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+.sacobot{
+    border: none;
+    background-color: rgba(0, 0, 0);
+    color:rgba(255, 255, 255);
+    padding: 5%;
+    text-decoration: none;
+    font-size: 80%;
+    border-radius: 12px;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    margin-top: 10%;
+}
+.sacover{
+    border: none;
+    background-color: rgba(0, 0, 0);
+    color:rgba(255, 255, 255);
+    padding: 5%;
+    text-decoration: none;
+    font-size: 80%;
+    border-radius: 12px;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+/*botas*/
 
 .botascat{
     padding: 15px;
@@ -224,17 +334,162 @@ header {
     border: white solid 20px;
     width: 30%;
 }
+.botastit{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing:0.03cm;
+}
+.botasdes{
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    margin-top: -7%;
+    font-size: 80%;
+}
+.botasp{
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+.botasbot{
+    border: none;
+    background-color: rgba(0, 0, 0);
+    color:rgba(255, 255, 255);
+    padding: 5%;
+    text-decoration: none;
+    font-size: 80%;
+    border-radius: 12px;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    margin-top: 10%;
+}
+.botasver{
+    border: none;
+    background-color: rgba(0, 0, 0);
+    color:rgba(255, 255, 255);
+    padding: 5%;
+    text-decoration: none;
+    font-size: 80%;
+    border-radius: 12px;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+/*cartera*/
 .carteracat{
     padding: 15px;
     background-color: rgba(217, 217, 217,0.3); 
     border: white solid 20px;
     width: 30%;
 }
+.carteratit{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing:0.03cm;
+}
+.carterades{
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    margin-top: -7%;
+    font-size: 80%;
+}
+.carterap{
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+.carterabot{
+    border: none;
+    background-color: rgba(0, 0, 0);
+    color:rgba(255, 255, 255);
+    padding: 5%;
+    text-decoration: none;
+    font-size: 80%;
+    border-radius: 12px;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    margin-top: 3%;
+}
+.carteraver{
+    border: none;
+    background-color: rgba(0, 0, 0);
+    color:rgba(255, 255, 255);
+    padding: 5%;
+    text-decoration: none;
+    font-size: 80%;
+    border-radius: 12px;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+/*guantes*/
 .guantescat{
     padding: 15px;
     background-color: rgba(217, 217, 217,0.3); 
     border: white solid 20px;
     width: 30%;
+}
+.guantestit{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing:0.03cm;
+}
+.guantesdes{
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    margin-top: -7%;
+    font-size: 80%;
+}
+.guantesp{
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+.guantesbot{
+    border: none;
+    background-color: rgba(0, 0, 0);
+    color:rgba(255, 255, 255);
+    padding: 5%;
+    text-decoration: none;
+    font-size: 80%;
+    border-radius: 12px;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    margin-top: 10%;
+}
+.guantesver{
+    border: none;
+    background-color: rgba(0, 0, 0);
+    color:rgba(255, 255, 255);
+    padding: 5%;
+    text-decoration: none;
+    font-size: 80%;
+    border-radius: 12px;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
 }
 
 .filacat2{
@@ -243,25 +498,195 @@ header {
     flex-wrap: nowrap;
     width:84%;
 }
-.taconcat{
-    padding: 15px;
-    background-color: rgba(217, 217, 217,0.3); 
-    border: white solid 20px;
-    width: 30%;
-}
+
+/*guantes*/
 .florescat{
     padding: 15px;
     background-color: rgba(217, 217, 217,0.3); 
     border: white solid 20px;
     width: 30%;
 }
+.florestit{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing:0.03cm;
+}
+.floresdes{
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    margin-top: -7%;
+    font-size: 80%;
+}
+.floresp1{
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+.floressale{
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+.floresp2{
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+.floresbot{
+    border: none;
+    background-color: rgba(0, 0, 0);
+    color:rgba(255, 255, 255);
+    padding: 5%;
+    text-decoration: none;
+    font-size: 80%;
+    border-radius: 12px;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    margin-top: 7%;
+}
+.floresver{
+    border: none;
+    background-color: rgba(0, 0, 0);
+    color:rgba(255, 255, 255);
+    padding: 5%;
+    text-decoration: none;
+    font-size: 80%;
+    border-radius: 12px;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+/*tacon*/
+
+.taconcat{
+    padding: 15px;
+    background-color: rgba(217, 217, 217,0.3); 
+    border: white solid 20px;
+    width: 30%;
+}
+.tacontit{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing:0.03cm;
+}
+.tacondes{
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    margin-top: -7%;
+    font-size: 80%;
+}
+.taconp1{
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+.taconsale{
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+.taconp2{
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+.taconbot{
+    border: none;
+    background-color: rgba(0, 0, 0);
+    color:rgba(255, 255, 255);
+    padding: 5%;
+    text-decoration: none;
+    font-size: 80%;
+    border-radius: 12px;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+.taconver{
+    border: none;
+    background-color: rgba(0, 0, 0);
+    color:rgba(255, 255, 255);
+    padding: 5%;
+    text-decoration: none;
+    font-size: 80%;
+    border-radius: 12px;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+/*simone*/
 .simonecat{
     padding: 15px;
     background-color: rgba(217, 217, 217,0.3); 
     border: white solid 20px;
     width: 30%;
 }
-
+.simotit{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing:0.03cm;
+}
+.simodes{
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    margin-top: -7%;
+    font-size: 80%;
+}
+.simop{
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+.simobot{
+    border: none;
+    background-color: rgba(0, 0, 0);
+    color:rgba(255, 255, 255);
+    padding: 5%;
+    text-decoration: none;
+    font-size: 80%;
+    border-radius: 12px;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    margin-top: 22%;
+}
+.simover{
+    border: none;
+    background-color: rgba(0, 0, 0);
+    color:rgba(255, 255, 255);
+    padding: 5%;
+    text-decoration: none;
+    font-size: 80%;
+    border-radius: 12px;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
 
 
 /* estilos para PRODUCTO */
