@@ -1011,10 +1011,12 @@ header {
 }
 
 /*estilos Carrito*/
-.cartarticlechaleco{
-    padding: 15px;
-    flex-wrap: nowrap;
-    background-color: rgba(217, 217, 217,0.3); 
-    border: white solid 20px;
-    width: 25%;
+.setcioncart1{
+    flex-direction: column;
+}
+.sectioncart2{
+    flex-direction: column;
+}
+.sectioncart3{
+    flex-direction: column;
 }
