@@ -903,3 +903,109 @@ header {
   font-weight: 400;
   font-style: normal;
 }
+
+/*ESTILOS LOG IN*/
+.bodylog{
+    background-color: rgb(59, 139, 151, 0.50);
+}
+
+.formlogin{
+    background-color: aliceblue;
+    width: 30%;
+    padding: 3%;
+    margin-left: 35%;
+    margin-top: 7%;
+    border-radius: 12px;
+}
+
+.logintrendy{
+    font-family: "Kanit", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-left: -5%;
+  margin-top: -5%;
+}
+
+.headlog{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-left: -4%;
+    margin-top: -5%;
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+.ini{
+    text-decoration: underline;
+}
+
+.regi{
+    margin-left: 10%;
+}
+.regiletra{
+    text-decoration: none;
+    color: black;
+}
+.direlogin{
+    color: rgb(53, 50, 50);
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    margin-left: -4%;
+    margin-top: 0%;
+    font-size: 85%;
+}
+.direloginusuario{
+    border-radius: 5px;
+    width: 100%;
+    margin-left: -4%;
+}
+.contralogin{
+    color: rgb(53, 50, 50);
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    margin-left: -4%;
+    font-size: 85%;
+}
+.contraloginusuario{
+    border-radius: 5px;
+    width: 100%;
+    margin-left: -4%;
+}
+.checkpointsesion{
+    color: rgb(53, 50, 50);
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    margin-left: -4%;
+    margin-top: 3%;
+    font-size: 85%;
+}
+.olvidologin{
+    color: rgb(53, 50, 50);
+    font-size: 90%;
+    margin-left: -4%;
+}
+.botoniniciar{
+    border: none;
+    background-color: rgba(0, 0, 0);
+    color:rgba(255, 255, 255);
+    padding: 5%;
+    font-size: 100%;
+    border-radius: 12px;
+    margin-top: 2%;
+    margin-left: -4%;
+    font-family: "Archivo Black", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.textoboti{
+    text-decoration: none;
+    color: white;
+}
