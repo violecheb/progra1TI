@@ -1012,7 +1012,6 @@ header {
     color: white;
 }
 
-<<<<<<< HEAD
 /*ESTILOS REGISTER*/
 .formreg{
     background-color: aliceblue;
@@ -1141,7 +1140,6 @@ header {
 .textobotrei{
     color: black;
     text-decoration: none;
-=======
 /*estilos Carrito*/
 .setcioncart1{
     flex-direction: column;
@@ -1149,7 +1147,7 @@ header {
 .sectioncart2{
     flex-direction: column;
 }
+
 .sectioncart3{
     flex-direction: column;
->>>>>>> 641d410e52fae09a1e8eeca84712d31e772f8237
 }
