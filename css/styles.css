@@ -31,7 +31,7 @@ header {
     align-self: center;
     width: 10%;
     object-fit: contain;
-    margin-left: 43%;
+    
     margin-top: 1%;
     margin-bottom: 1%;
 }
@@ -1439,7 +1439,10 @@ header {
         width: 20%;
     }
     
-  
+    .header-logo{
+        justify-content: start;
+        padding-left: 5%;
+    }
 
     .header2{
         flex-direction: column;
