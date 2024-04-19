@@ -14,7 +14,19 @@ header {
     flex-direction: row;
     align-items: center;
 }
+.header-logo{
+    display: flex;
+    justify-content: end;
+    width: 50%;
+}
+.header-top{
+    display: flex;
+    justify-content: end;
+    width: 50%;
+    padding-right: 5%;
 
+    
+}
 .logo {
     align-self: center;
     width: 10%;
@@ -1426,10 +1438,9 @@ header {
     .logo{
         width: 20%;
     }
-    .header-logo{
-        justify-content: start;
-        padding-left: 5%;
-    }
+    
+  
+
     .header2{
         flex-direction: column;
         align-items: center;
@@ -1440,14 +1451,7 @@ header {
     .w-25{
         width: 100%;
     }
-        text-decoration: none;
-        font-size: 100%;
-        border-radius: 12px;
-        margin-top: 5%;
-        font-family: "Archivo Black", sans-serif;
-        font-weight: 400;
-        font-style: normal;
-        width: 100%;
+        
 }
 .imgmaletincarrito{
     width: 20%;
