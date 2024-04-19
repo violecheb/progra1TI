@@ -1009,7 +1009,6 @@ header {
     font-family: "Kanit", sans-serif;
     font-weight: 400;
     font-style: normal;
-
 }
 
 .ini {
@@ -1233,65 +1232,179 @@ header {
 }
 .textobotrei{
     color: black;
-    text-decoration: none;}
-
-/*estilos Carrito*/
-.setcioncart1{
-    flex-direction: column;
-}
-.sectioncart2{
-    flex-direction: column;
-    font-weight: 400;
-    font-style: normal;
-    width: 100%;
-}
-
-.textobotrei {
-    color: black;
     text-decoration: none;
 }
 
-
-
-    /*estilos Carrito delfi*/
-
-    .setcioncart1 {
-        flex-direction: column;
+/*ESTILOS CARRITO*/
+.carritocompras{
+        font-family: "Montserrat Subrayada", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        padding: 1%;
+}
+.carrito{
         display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
     }
-
-    .sectioncart2 {
-        flex-direction: column;
-        display: flex;
-    }
-
-    .sectioncart3 {
-        flex-direction: column;
-        display: flex;
-    }
-
-    .imgcart {
+.imgcarrito{
+        width: 20%;
         object-fit: contain;
+    }
+.carritosec1{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        margin-top: 2%;
+    }
+.letratitulocarrito{
+    font-weight: bold;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0.03cm;
+}
+.letradesccarrito{
+    margin-top: -10%;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-size: 80%;
+}
+.letracategoriacart{
+    margin-top: -10%;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-size: 80%;
+}
+
+.carritosec2{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        margin-left: 5%;
+        margin-top: 2%;
+    }
+
+.preciocart{
+    font-weight: bold;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-size: 80%;
+}
+.impuestoscart{
+    margin-top: -6%;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-size: 80%;
+}
+.carritosec3{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-left: 5%;
+    margin-top: 2%;
+}
+.talle{
+    font-weight: bold;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-size: 80%;
+}
+.talle2{
+    margin-top: -11%;
+    text-transform: capitalize;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-size: 80%;
+}
+.cantidad{
+    font-weight: bold;
+    margin-top: 10%;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-size: 80%;
+}
+.cantidad2{
+    margin-top: -10%;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-size: 80%;
+}
+
+.resumencompra{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-top: 1%;
+    margin-left: 20%;
+    width: 20%;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-size: 80%;
+    background-color: rgba(217, 217, 217, 0.3);
+    padding: 2%;
+    border-radius: 12%;
+}
+.resumensubtotal{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: -8%;
+    justify-content: space-between;
+}
+.subtotal{
+    font-weight: normal;
+}
+.psubtotal{
+    font-weight: normal;
+}
+
+.resumenentrega{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.resumentotal{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.botoncheckout{
+        border: none;
+        background-color: rgba(0, 0, 0);
+        color: rgba(255, 255, 255);
+        padding: 5%;
+        text-decoration: none;
+        font-size: 100%;
+        border-radius: 12px;
+        margin-top: 5%;
+        font-family: "Archivo Black", sans-serif;
+        font-weight: 400;
+        font-style: normal;
         width: 100%;
-        height: 20%;
-    }
-
-    .articlecartchaleco {
-        padding: 5%;
-        border: 30%;
-    }
-
-    .artcilecartsmart {
-        padding: 5%;
-        border: 30%;
-    }
-
-    .articlecarttacon {
-        padding: 5%;
-        border: 30%;
-    }
-
-    /*ESTILOS CARRITO*/
-    .imgchalecocarrito{
-        
-    }
+}
+.imgmaletincarrito{
+    width: 20%;
+    object-fit: contain;
+    margin-top: -2%;
+}
