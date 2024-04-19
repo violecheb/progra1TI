@@ -1249,11 +1249,12 @@ header {
 .textobotrei {
     color: black;
     text-decoration: none;
+}
 
 
 
+    /*estilos Carrito delfi*/
 
-    /*estilos Carrito*/
     .setcioncart1 {
         flex-direction: column;
         display: flex;
@@ -1288,4 +1289,9 @@ header {
     .articlecarttacon {
         padding: 5%;
         border: 30%;
+    }
+
+    /*ESTILOS CARRITO*/
+    .imgchalecocarrito{
+        
     }
