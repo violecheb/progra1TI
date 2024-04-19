@@ -5,39 +5,30 @@
 /* ESTILOS HEADER */
 header {
     background-color: rgb(59, 139, 151, 0.50);
-    
+
 }
 
 .header1 {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     align-items: center;
 }
-.header-logo {
-    display: flex;
-    width: 50%;
-    justify-content: end;
-}
-.header-top{
-    width: 50%;
-}
+
 .logo {
     align-self: center;
     width: 10%;
     object-fit: contain;
-    
+    margin-left: 43%;
     margin-top: 1%;
     margin-bottom: 1%;
 }
 
 .menu1 {
-    display: flex;
-    align-items: end;
-    flex-direction: column;
-    padding-right: 5%;
+    align-self: self-start;
     list-style-type: none;
     color: rgb(118, 69, 69);
-
+    margin-left: 30%;
     line-height: 200%;
     font-size: 90%;
     font-family: "Roboto Slab", serif;
@@ -60,7 +51,6 @@ header {
     text-decoration: none;
     color: rgb(255, 255, 255);
     font-family: "Bebas Neue", sans-serif;
-    
     font-weight: 400;
     font-style: normal;
     font-size: 120%;
@@ -98,11 +88,8 @@ header {
     font-size: 70%;
 }
 
-/*ESTILOS HOME RESPONSIVE*/
-
 
 /*ESTILOS HOME*/
-
 .imghome {
     object-fit: contain;
     width: 100%;
@@ -131,18 +118,14 @@ header {
     background-color: rgba(22, 147, 160, 0.1);
     padding: 1%;
 }
-.homepreciosale {
-    text-decoration: line-through;
-}
 
-.homenuevoprecio {
-    color: red;
-}
-/*sections Home*/
-.mt1 {
+.sectionhome1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 100%;
     margin-top: -1%;
 }
-   
 
 .sectionhome2 {
     display: flex;
@@ -151,21 +134,34 @@ header {
     width: 100%;
 }
 
-
-/*articles Home*/
-.homearticles {
+.homearticlesimona {
     padding: 15px;
     flex-wrap: nowrap;
     background-color: rgba(217, 217, 217, 0.3);
     border: white solid 20px;
 }
 
-.w-25{
-    width: 25%;
+.homearticlebotas {
+    padding: 15px;
+    flex-wrap: nowrap;
+    background-color: rgba(217, 217, 217, 0.3);
+    border: white solid 20px;
 }
 
+.homearticlecartera {
+    padding: 15px;
+    flex-wrap: nowrap;
+    background-color: rgba(217, 217, 217, 0.3);
+    border: white solid 20px;
+}
 
-/*chaleco Home*/
+.homearticleaccesorio {
+    padding: 15px;
+    flex-wrap: nowrap;
+    background-color: rgba(217, 217, 217, 0.3);
+    border: white solid 20px;
+}
+
 .homearticlechaleco {
     padding: 15px;
     flex-wrap: nowrap;
@@ -211,7 +207,7 @@ header {
     font-style: normal;
 }
 
-.vermas {
+.ver {
     border: none;
     background-color: rgba(0, 0, 0);
     color: rgba(255, 255, 255);
@@ -224,7 +220,7 @@ header {
     font-style: normal;
     margin-top: 10%;
 }
-/**/
+
 .botreloj {
     border: none;
     background-color: rgba(0, 0, 0);
@@ -324,10 +320,95 @@ header {
 }
 
 
+/*camisa*/
+.homearticleremera {
+    padding: 15px;
+    flex-wrap: nowrap;
+    background-color: rgba(217, 217, 217, 0.3);
+    border: white solid 20px;
+}
 
+.homearticlezapato {
+    padding: 15px;
+    flex-wrap: nowrap;
+    background-color: rgba(217, 217, 217, 0.3);
+    border: rgb(254, 254, 254) solid 20px;
+}
 
+.homearticleapple {
+    padding: 15px;
+    flex-wrap: nowrap;
+    background-color: rgba(217, 217, 217, 0.3);
+    border: white solid 20px;
+}
 
-/*ESTILOS CATEGORY RESPONSIVE*/
+.homearticlesmartwatch {
+    padding: 15px;
+    flex-wrap: nowrap;
+    background-color: rgba(217, 217, 217, 0.3);
+    border: white solid 20px;
+}
+
+.homearticlemaletin {
+    padding: 15px;
+    flex-wrap: nowrap;
+    background-color: rgba(217, 217, 217, 0.3);
+    border: white solid 20px;
+    width: 25%;
+}
+
+.sectionhome3 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 100%;
+}
+
+.homearticlevestido {
+    padding: 15px;
+    flex-wrap: nowrap;
+    background-color: rgba(217, 217, 217, 0.3);
+    border: white solid 20px;
+
+}
+
+.homepreciosale {
+    text-decoration: line-through;
+}
+
+.homenuevoprecio {
+    color: red;
+}
+
+.homearticlekaws {
+    padding: 15px;
+    flex-wrap: nowrap;
+    background-color: rgba(217, 217, 217, 0.3);
+    border: white solid 20px;
+}
+
+.homearticlecampera {
+    padding: 15px;
+    flex-wrap: nowrap;
+    background-color: rgba(217, 217, 217, 0.3);
+    border: white solid 20px;
+
+}
+
+.homearticleimpresora {
+    padding: 15px;
+    flex-wrap: nowrap;
+    background-color: rgba(217, 217, 217, 0.3);
+    border: white solid 20px;
+    width: 25%;
+}
+
+.homearticletacon {
+    padding: 15px;
+    flex-wrap: nowrap;
+    background-color: rgba(217, 217, 217, 0.3);
+    border: white solid 20px;
+}
 
 
 
@@ -336,7 +417,7 @@ header {
     color: rgb(0, 0, 0);
 }
 
-.sectioncat1 {
+.filacat1 {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -348,7 +429,7 @@ header {
     width: 100%;
 }
 
-/*saco Category*/
+/*saco*/
 .sacocat {
     padding: 15px;
     background-color: rgba(217, 217, 217, 0.3);
@@ -356,7 +437,7 @@ header {
     width: 30%;
 }
 
-.titulosaco {
+.sacotit {
     font-family: "Bebas Neue", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -393,7 +474,7 @@ header {
     margin-top: 10%;
 }
 
-.sacovermas {
+.sacover {
     border: none;
     background-color: rgba(0, 0, 0);
     color: rgba(255, 255, 255);
@@ -406,7 +487,7 @@ header {
     font-style: normal;
 }
 
-/*botas Category*/
+/*botas*/
 
 .botascat {
     padding: 15px;
@@ -415,7 +496,7 @@ header {
     width: 30%;
 }
 
-.titulobotas {
+.botastit {
     font-family: "Bebas Neue", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -452,7 +533,7 @@ header {
     margin-top: 10%;
 }
 
-.botasvermas {
+.botasver {
     border: none;
     background-color: rgba(0, 0, 0);
     color: rgba(255, 255, 255);
@@ -465,7 +546,7 @@ header {
     font-style: normal;
 }
 
-/*cartera Category*/
+/*cartera*/
 .carteracat {
     padding: 15px;
     background-color: rgba(217, 217, 217, 0.3);
@@ -473,7 +554,7 @@ header {
     width: 30%;
 }
 
-.titulocartera {
+.carteratit {
     font-family: "Bebas Neue", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -510,7 +591,7 @@ header {
     margin-top: 3%;
 }
 
-.carteravermas {
+.carteraver {
     border: none;
     background-color: rgba(0, 0, 0);
     color: rgba(255, 255, 255);
@@ -523,7 +604,7 @@ header {
     font-style: normal;
 }
 
-/*guantes Category*/
+/*guantes*/
 .guantescat {
     padding: 15px;
     background-color: rgba(217, 217, 217, 0.3);
@@ -531,7 +612,7 @@ header {
     width: 30%;
 }
 
-.tituloguantes {
+.guantestit {
     font-family: "Bebas Neue", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -568,7 +649,7 @@ header {
     margin-top: 10%;
 }
 
-.guantesvermas {
+.guantesver {
     border: none;
     background-color: rgba(0, 0, 0);
     color: rgba(255, 255, 255);
@@ -582,14 +663,14 @@ header {
     font-style: normal;
 }
 
-.sectioncat2 {
+.filacat2 {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     width: 84%;
 }
 
-/*vestido flores Category*/
+/*guantes*/
 .florescat {
     padding: 15px;
     background-color: rgba(217, 217, 217, 0.3);
@@ -597,7 +678,7 @@ header {
     width: 30%;
 }
 
-.tituloflores {
+.florestit {
     font-family: "Bebas Neue", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -648,7 +729,7 @@ header {
     margin-top: 7%;
 }
 
-.floresvermas {
+.floresver {
     border: none;
     background-color: rgba(0, 0, 0);
     color: rgba(255, 255, 255);
@@ -661,7 +742,7 @@ header {
     font-style: normal;
 }
 
-/*tacon Category*/
+/*tacon*/
 
 .taconcat {
     padding: 15px;
@@ -670,7 +751,7 @@ header {
     width: 30%;
 }
 
-.titulotacon {
+.tacontit {
     font-family: "Bebas Neue", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -720,7 +801,7 @@ header {
     font-style: normal;
 }
 
-.taconvermas {
+.taconver {
     border: none;
     background-color: rgba(0, 0, 0);
     color: rgba(255, 255, 255);
@@ -733,7 +814,7 @@ header {
     font-style: normal;
 }
 
-/*simone Category*/
+/*simone*/
 .simonecat {
     padding: 15px;
     background-color: rgba(217, 217, 217, 0.3);
@@ -741,7 +822,7 @@ header {
     width: 30%;
 }
 
-.titulosimon {
+.simotit {
     font-family: "Bebas Neue", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -778,7 +859,7 @@ header {
     margin-top: 22%;
 }
 
-.simovermas {
+.simover {
     border: none;
     background-color: rgba(0, 0, 0);
     color: rgba(255, 255, 255);
@@ -1151,8 +1232,24 @@ header {
 }
 .textobotrei{
     color: black;
+    text-decoration: none;}
+
+/*estilos Carrito*/
+.setcioncart1{
+    flex-direction: column;
+}
+.sectioncart2{
+    flex-direction: column;
+    font-weight: 400;
+    font-style: normal;
+    width: 100%;
+}
+
+.textobotrei {
+    color: black;
     text-decoration: none;
 }
+
 
 /*ESTILOS CARRITO*/
 .carritocompras{
@@ -1183,17 +1280,24 @@ header {
     font-style: normal;
     letter-spacing: 0.03cm;
 }
+.letradesccarrito{
+    margin-top: -10%;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-size: 80%;
+}
+.letracategoriacart{
+    margin-top: -10%;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-size: 80%;
+}
 
-.textobotrei {
-    color: black;
-    text-decoration: none;}
-
-
-
-
-    /*estilos Carrito*/
-    .setcioncart1 {
-        flex-direction: column;
+.carritosec2{
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
@@ -1306,5 +1410,17 @@ header {
         background-color: rgba(0, 0, 0);
         color: rgba(255, 255, 255);
         padding: 5%;
-        border: 30%;
-    }
+        text-decoration: none;
+        font-size: 100%;
+        border-radius: 12px;
+        margin-top: 5%;
+        font-family: "Archivo Black", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        width: 100%;
+}
+.imgmaletincarrito{
+    width: 20%;
+    object-fit: contain;
+    margin-top: -2%;
+}
