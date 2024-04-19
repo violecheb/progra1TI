@@ -1308,3 +1308,32 @@ header {
         padding: 5%;
         border: 30%;
     }
+
+ /*ESTILOS HEADER RESPONSIVE*/
+ @media only screen and (max-width: 600px){
+    .sectionhome2{
+        flex-direction: column;
+    }
+    .homearticles{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .logo{
+        width: 20%;
+    }
+    .header-logo{
+        justify-content: start;
+        padding-left: 5%;
+    }
+    .header2{
+        flex-direction: column;
+        align-items: center;
+    }
+    .menu1{
+        font-size: 80%;
+    }
+    .w-25{
+        width: 100%;
+    }
+}
