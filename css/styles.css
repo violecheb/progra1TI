@@ -1139,7 +1139,8 @@ header {
 }
 .textobotrei{
     color: black;
-    text-decoration: none;
+    text-decoration: none;}
+
 /*estilos Carrito*/
 .setcioncart1{
     flex-direction: column;
