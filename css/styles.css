@@ -84,6 +84,12 @@ header {
     margin-top: 0%;
     font-size: 70%;
 }
+.pie2{
+    margin-top: 4%;
+    font-size: 70%;
+
+}
+
 
 /*ESTILOS LETRAS*/
 .roboto{
@@ -719,7 +725,7 @@ header {
         
 }
 
- /*ESTILOS HOME RESPONSIVE 600px*/
+ /*ESTILOS HOME Y CATEGORY RESPONSIVE*/
  @media only screen and (max-width: 600px){
     .productos{
         width: 100%;
@@ -729,14 +735,23 @@ header {
     }
  }
 
- /*ESTILOS HOME RESPONSIVE 1000px*/
  @media only screen and (max-width: 1000px) and (min-width:600px){
     .productos{
         width: 33%;
     }
  }
 
-  /*ESTILOS HOME RESPONSIVE 1110px*/
+ @media only screen and (max-width: 2600px) and (min-width:1500px){
+    .productos{
+        width: 25%;
+    }
+    .descripcion{
+        margin-top: 2%;
+    }
+
+ }
+
+  /*ESTILOS PRODUCTO RESPONSIVE 1110px*/
   @media only screen and (max-width: 1110px){
     .imagendes{
         width: 100%;
@@ -746,7 +761,7 @@ header {
     }
  }
 
- /*ESTILOS CARRITO RESPONSIVE 1150px*/
+ /*ESTILOS CARRITO RESPONSIVE*/
  @media only screen and (max-width: 1150px){
     .resumencompra{
         order: -1;
@@ -759,9 +774,17 @@ header {
     margin-top: -8%;
     }
 }
+@media only screen and (max-width: 2600px) and (min-width:1600px){
+    .resumencompra{
+        padding: 5% 2% 2% 2%;
+    }
+    .textoresumen{
+    margin-top: -8%;
+    }
+}
 
- /*ESTILOS LOGIN RESPONSIVE 1000px*/
- @media only screen and (max-width: 1000px) and (min-width:650px){
+ /*ESTILOS LOGIN RESPONSIVE*/
+ @media only screen and (max-width: 1200px) and (min-width:650px){
     .formlogin{
         width: 50%;
         margin-left: 25%;
@@ -769,8 +792,7 @@ header {
     }
 }
 
- /*ESTILOS LOGIN RESPONSIVE 650px*/
- @media only screen and (max-width: 650px) and (min-width:380px){
+ @media only screen and (max-width: 800px) and (min-width:380px){
     .formlogin{
         width: 70%;
         margin-left: 17%;
@@ -778,8 +800,7 @@ header {
     }
 }
 
- /*ESTILOS LOGIN RESPONSIVE 380px*/
- @media only screen and (max-width: 380px){
+ @media only screen and (max-width: 500px){
     .formlogin{
         width: 85%;
         margin-left: 10%;
@@ -788,35 +809,36 @@ header {
     }
 }
 
- /*ESTILOS REGISTER RESPONSIVE 1000px*/
- @media only screen and (max-width: 1000px) and (min-width:650px){
+ /*ESTILOS REGISTER RESPONSIVE*/
+ @media only screen and (max-width: 1500px) and (min-width:650px){
     .formreg{
         width: 50%;
         margin-left: 25%;
         padding: 4%;
+        margin-top: 10%;
     }
 }
 
- /*ESTILOS REGISTER RESPONSIVE 650px*/
- @media only screen and (max-width: 650px) and (min-width:380px){
+ @media only screen and (max-width: 900px) and (min-width:380px){
     .formreg{
         width: 70%;
         margin-left: 17%;
         padding: 6%;
+        margin-top: 10%;
     }
 }
 
- /*ESTILOS REGISTER RESPONSIVE 380px*/
- @media only screen and (max-width: 380px){
+ @media only screen and (max-width: 600px){
     .formreg{
         width: 85%;
-        margin-left: 10%;
+        margin-left: 8%;
         margin-top:15%;
         padding: 6%;
     }
 }
 
- /*ESTILOS RECOVER RESPONSIVE 1000px*/
+/*ESTILOS RECOVER RESPONSIVE*/
+
  @media only screen and (max-width: 1000px) and (min-width:600px){
     .formrestablecer{
         width: 80%;
@@ -826,7 +848,6 @@ header {
     }
 }
 
- /*ESTILOS RECOVER RESPONSIVE 600px*/
  @media only screen and (max-width: 600px){
     .formrestablecer{
         width: 90%;
