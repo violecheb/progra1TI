@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,51 +9,43 @@
     <link rel="stylesheet" href="css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Anta&family=Bebas+Neue&family=Instrument+Sans:ital@0;1&family=Konkhmer+Sleokchher&family=Open+Sans:ital@0;1&family=Raleway:ital@0;1&family=Roboto&family=Work+Sans:ital@0;1&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Anta&family=Archivo+Black&family=Bebas+Neue&family=Fjalla+One&family=Instrument+Sans:ital@0;1&family=Konkhmer+Sleokchher&family=Montserrat+Subrayada:wght@400;700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital@0;1&family=Roboto&family=Roboto+Slab:wght@100..900&family=Work+Sans:ital@0;1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Anta&family=Archivo+Black&family=Bebas+Neue&family=Fjalla+One&family=Instrument+Sans:ital@0;1&family=Konkhmer+Sleokchher&family=Montserrat+Subrayada:wght@400;700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital@0;1&family=Roboto:wght@100..900&family=Roboto+Slab:wght@100..900&family=Work+Sans:ital@0;1&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <header>
-        <section class="header1">
+        <nav class="header1">
             <div class="header-logo">
-
-                <img class="logo" src="./imagenes/trendy.png" alt="">
+                <img class="logo" src="./imagenes/trendy.png" alt="Logo de Trendy">
             </div>
             <div class="header-top">
                 <ul class="menu1">
                     <li> <a class="menu1" href="register.html">Registrarse </a> <a class="menu1" href="login.html"> / log in</a></li>
                     <li> <a class="menu1" href="cart.html"> Carrito</a></li>
                 </ul>
-
             </div>
-        </section>
-        <section class="header2">
+        </nav>
+        <nav class="header2">
             <ul class="categorias">
                 <li> <a class="categorias" href="index.html"> Home</a></li>
-            </ul>
-            <ul class="categorias">
                 <li> <a class="categorias" href="category.html">Mujer</a></li>
-            </ul>
-            <ul class="categorias">
                 <li class="categorias">Hombre</li>
-            </ul>
-            <ul class="categorias">
                 <li class="categorias">Accesorios</li>
+                <li class="categorias">Electrónica</li>
             </ul>
-            <ul class="categorias">
-                <li class="categorias">Electronica</li>
-            </ul>
-        </section>
+        </nav>
     </header>
 
-    <h2 class="carritocompras">Carrito de compras</h2>
-    <section class="carrito">
-        <img class="imgcarrito" src="./imagenes/chaleco.png" alt="">
+    <div>
+      <h2 class="carritocompras">Carrito de compras</h2>
+
+      <!-- articulo 1 -->
+      <section class="carrito">
+        <img class="imgcarrito" src="./imagenes/chaleco.png" alt="Chaleco Gucci">
         <article class="carritosec1">
             <p class="letratitulocarrito">Gucci</p>
             <p class="letra1carrito">chaleco caleidoscopio GG</p>
-            <P class="letra1carrito">hombre</P>
+            <P class="letra1carrito">hombre</p>
         </article>
         <article class="carritosec2">
             <p class="preciocart">$6.290.326</p>
@@ -66,10 +57,10 @@
             <p class="cantidad">Cantidad</p>
             <p class="letra1carrito">1</p>
         </article>
+
+        <!-- resumen de compra -->
         <article class="resumencompra">
-            <div>
             <h3 class="textoresumen">Resumen</h3>
-            </div>
             <div class="resumensubtotal">
                 <p >Subtotal</p>
                 <p class="psubtotal">$113.989.936</p>
@@ -82,11 +73,13 @@
                 <p>Total</p>
                 <p>$114.014.936</p>
             </div>
-            <button class="botoncheckout">Comprar</button>
+            <h4 class="botoncheckout">Comprar</h4>
         </article>
     </section>
+
+    <!-- articulo 2 -->
     <section class="carrito">
-        <img class="imgcarrito" src="./imagenes/botas-balenciaga.png" alt="">
+        <img class="imgcarrito" src="./imagenes/botas-balenciaga.png" alt="Botas Balenciaga">
         <article class="carritosec1">
             <p class="letratitulocarrito">Botas Balenciaga</p>
             <p class="letra1carrito">botas de nieve bajas Alaska</p>
@@ -103,8 +96,10 @@
             <p class="letra1carrito">1</p>
         </article>
     </section>
+
+    <!-- articulo 3 -->
     <section class="carrito">
-        <img class="imgmaletincarrito" src="./imagenes/maletin.png" alt="">
+        <img class="imgmaletincarrito" src="./imagenes/maletin.png" alt="Maletin Luis Vuitton">
         <article class="carritosec1">
             <p class="letratitulocarrito">Maletin Louis Vuitton</p>
             <p class="letra1carrito">X Takashi Murakami 80cm</p>
@@ -121,6 +116,8 @@
             <p class="letra1carrito">1</p>
         </article>
     </section>
+</div>
+
     <footer class="pie roboto">
         <p>TRENDY-E y el logo «TRENDY-E» son marcas registradas por TRENDY AR en numerosas jurisdicciones alrededor del mundo.
             <br>© Copyright 2024 TRENDY AR. Todos los derechos reservados.</p>

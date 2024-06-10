@@ -49,10 +49,6 @@ header {
 }
 
 .header2 {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-around;
     background-color: rgba(234, 234, 234, 0.2);
 }
 
@@ -66,6 +62,10 @@ header {
     font-style: normal;
     font-size: 120%;
     margin-right: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
 .catmujer {
@@ -273,7 +273,6 @@ header {
     font-style: normal;
     width: 100%;
 }
-
 .rm {
     font-size: 90%;
     color: rgb(109, 109, 109);
@@ -693,8 +692,9 @@ header {
   font-style: normal;
     }
 
- /*ESTILOS HEADER RESPONSIVE*/
+ /*RESPONSIVE MAX 600 px*/
  @media only screen and (max-width: 600px){
+    /*HEADER*/
     .sectionhome2{
         flex-direction: column;
     }
@@ -722,10 +722,104 @@ header {
     .w-25{
         width: 100%;
     }
-        
+    /*HOME Y CATEGORY*/
+    .productos{
+        width: 100%;
+    }
+    .descripcion{
+        margin-top: -2%;
+    }
+    /*LOG IN*/
+    .formlogin{
+        width: 85%;
+        margin-left: 10%;
+        margin-top:15%;
+        padding: 6%;
+    }
+    /*REGISTER*/
+    .formreg{
+        width: 85%;
+        margin-left: 8%;
+        margin-top:15%;
+        padding: 6%;
+    }
+    /*RESTABLECER*/
+    .formrestablecer{
+        width: 90%;
+        margin-left: 5%;
+        padding: 7%;
+        margin-top: 20%;
+    }
+    /*CARRITO*/
+    .resumencompra{
+        order: -1;
+        width: 100%;
+        border-radius: 20px;
+        margin-left: 0%;
+        padding: 5% 2% 2% 2%;
+    }
+    .textoresumen{
+    margin-top: -8%;
+    }
+    /*PRODUCTO*/
+    .imagendes{
+        width: 100%;
+    }
+    .p1{
+        font-size: 200%;
+    }
+
 }
 
- /*ESTILOS HOME Y CATEGORY RESPONSIVE*/
+ /*RESPONSIVE MIN 600 px MAX 1100 px*/
+ @media only screen and (max-width: 1100px) and (min-width:600px){
+    /* HOME Y CATEGORY */
+    .productos{
+        width: 33%;
+    }
+    /* PRODUCTOS */
+    .imagendes{
+        width: 100%;
+    }
+    .p1{
+        font-size: 200%;
+    }
+    /* CARRITO */
+    .resumencompra{
+        order: -1;
+        width: 100%;
+        border-radius: 20px;
+        margin-left: 0%;
+        padding: 5% 2% 2% 2%;
+    }
+    .textoresumen{
+    margin-top: -8%;
+    }
+    /* LOG IN */
+    .formlogin{
+        width: 50%;
+        margin-left: 25%;
+        padding: 4%;
+    }
+    /* REGISTRO */
+    .formreg{
+        width: 50%;
+        margin-left: 25%;
+        padding: 4%;
+        margin-top: 10%;
+    }
+    /* RESTABLECER */
+    .formrestablecer{
+        width: 80%;
+        margin-left: 10%;
+        padding: 7%;
+        margin-top: 15%;
+    }
+ }
+
+
+ 
+ /* CREO QUE YA LOS PODEMOS BORRAR: ESTILOS HOME Y CATEGORY RESPONSIVE
  @media only screen and (max-width: 600px){
     .productos{
         width: 100%;
@@ -751,7 +845,7 @@ header {
 
  }
 
-  /*ESTILOS PRODUCTO RESPONSIVE 1110px*/
+  /*ESTILOS PRODUCTO RESPONSIVE 1110px
   @media only screen and (max-width: 1110px){
     .imagendes{
         width: 100%;
@@ -761,7 +855,7 @@ header {
     }
  }
 
- /*ESTILOS CARRITO RESPONSIVE*/
+ /*ESTILOS CARRITO RESPONSIVE
  @media only screen and (max-width: 1150px){
     .resumencompra{
         order: -1;
@@ -783,7 +877,7 @@ header {
     }
 }
 
- /*ESTILOS LOGIN RESPONSIVE*/
+ /*ESTILOS LOGIN RESPONSIVE*
  @media only screen and (max-width: 1200px) and (min-width:650px){
     .formlogin{
         width: 50%;
@@ -800,7 +894,7 @@ header {
     }
 }
 
- @media only screen and (max-width: 500px){
+ @media only screen and (max-width: 600px){
     .formlogin{
         width: 85%;
         margin-left: 10%;
@@ -809,7 +903,7 @@ header {
     }
 }
 
- /*ESTILOS REGISTER RESPONSIVE*/
+ /*ESTILOS REGISTER RESPONSIVE*
  @media only screen and (max-width: 1500px) and (min-width:650px){
     .formreg{
         width: 50%;
@@ -837,7 +931,7 @@ header {
     }
 }
 
-/*ESTILOS RECOVER RESPONSIVE*/
+/*ESTILOS RECOVER RESPONSIVE*
 
  @media only screen and (max-width: 1000px) and (min-width:600px){
     .formrestablecer{
