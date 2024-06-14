@@ -21,7 +21,6 @@ formulario.addEventListener ('submit', function(event){
         localStorage.setItem ('email',campoEmail.value)
         localStorage.setItem ('contra',campoContra.value)
         console.log (localStorage)
-        console.log ('hola que tal')
 
         this.submit()
     } 
