@@ -25,3 +25,5 @@ formulario.addEventListener ('submit', function(event){
         window.location.href = "index.html";
     } 
 })
+
+

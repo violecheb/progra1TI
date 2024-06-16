@@ -25,6 +25,23 @@ fetch(url)
         precio.innerText = `${data.price} USD`;      
 
     })
+    
     .catch(function(error){
         console.log(error);
     })
+
+
+let carrito = []
+let favorito = document.querySelector ('.favorito')
+favorito.addEventListener ('click', function(evento){
+    evento.preventDefault()
+    carrito.push (id)
+    let carritoString = JSON.stringify (carrito)
+    localStorage.setItem ('itemsCarrito', carritoString)
+})
+
+let recuperoStorage = localStorage.getItem ('itemsCarrito')
+if (recuperoStorage != null){
+    pCarritoString = JSON.parse (recuperoStorage)
+    carrito = pCarritoString
+}
