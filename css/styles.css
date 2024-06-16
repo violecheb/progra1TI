@@ -203,81 +203,55 @@ header {
 }
 
 /* ESTILOS PRODUCTO */
-.destacado {
+.producto{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    margin-top: 0.5%;
+    justify-content: space-between;
 }
 
-.imagendes {
-    width: 36%;
+.fotoProductoContainer{
+    width: 50%;
+}
+
+.fotoProducto{
+    width: 80%;
+    height: auto;
     object-fit: contain;
-    background-color: rgba(217, 217, 217, 0.3);
 }
 
-.derechafotos {
+.infoproducto{
     display: flex;
-    flex-wrap: wrap;
     flex-direction: column;
-    margin-left: 1%;
+    align-items: flex-start;
+    padding: 10%;
+    width: 50%;
 }
 
-.nv {
-    color: rgb(109, 109, 109);
-    font-size: 90%;
-}
-
-.simone {
-    margin-top: -4%;
-    color: rgb(0, 0, 0);
+.nombreProducto{
+    font-weight: bold;
     font-family: "Bebas Neue", sans-serif;
     font-weight: 400;
     font-style: normal;
-    letter-spacing: 0.03cm;
 }
-
-.des1 {
-    margin-top: -5%;
-    font-size: 90%;
+.infoproductost{
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 80%;
 }
-
-.des2 {
-    font-size: 90%;
-}
-
-.bloquesimone2 {
-    margin-top: 15%;
-    font-size: 90%;
-}
-.impuestos {
-    margin-top: -5%;
-}
-
-.bloquesimone3 {
-    margin-top: 25%;
-    font-size: 90%;
-}
-
-.botonrocha {
+.addCart{
     border: none;
     background-color: rgba(0, 0, 0);
     color: rgba(255, 255, 255);
     padding: 5%;
     text-decoration: none;
-    font-size: 100%;
+    font-size: 80%;
     border-radius: 12px;
-    margin-top: -5%;
     font-family: "Archivo Black", sans-serif;
     font-weight: 400;
     font-style: normal;
-    width: 100%;
 }
-.rm {
-    font-size: 90%;
-    color: rgb(109, 109, 109);
-}
-
 /*ESTILOS LOG IN*/
 .bodylog {
     background-color: rgb(59, 139, 151, 0.50);
@@ -357,19 +331,7 @@ header {
     width: 100%;
     margin-left: -4%;
 }
-
-.checkpointsesion {
-    color: rgb(53, 50, 50);
-    font-family: "Roboto Slab", serif;
-    font-optical-sizing: auto;
-    font-weight: weight;
-    font-style: normal;
-    margin-left: -4%;
-    margin-top: 3%;
-    font-size: 85%;
-}
-
-.olvidologin {
+.cuentalogin {
     color: rgb(53, 50, 50);
     font-size: 90%;
     margin-left: -4%;
@@ -394,6 +356,7 @@ header {
     text-decoration: none;
     color: white;
 }
+
 
 /*ESTILOS REGISTER*/
 .formreg {
@@ -441,26 +404,15 @@ header {
     margin-left: -4%;
     font-size: 80%;
 }
-
-.suscribirsecheck {
-    margin-left: -4%;
-    margin-top: -5%;
-}
-
-.checkreg {
-    margin-left: 0%;
-    margin-top: 6%;
-}
-
-.susletra {
-    color: rgb(53, 50, 50);
+.formrechazado{
+    color: rgb(239, 0, 0);
     font-family: "Roboto Slab", serif;
     font-optical-sizing: auto;
     font-weight: weight;
     font-style: normal;
-    font-size: 70%;
+    margin-left: -4%;
+    font-size: 80%;
 }
-
 .botonreg {
     border: none;
     background-color: rgba(0, 0, 0);
@@ -474,11 +426,6 @@ header {
     font-family: "Archivo Black", sans-serif;
     font-weight: 400;
     font-style: normal;
-}
-
-.textoboti {
-    text-decoration: none;
-    color: white;
 }
 
 /*ESTILOS RECOVER*/

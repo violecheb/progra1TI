@@ -29,8 +29,6 @@ formulario.addEventListener ('submit', function(event){
         boton.innerHTML += '<a class="textobotrei" href="login.html">Volver a iniciar sesión</a>'
         
         this.submit
-
-
         
     } 
 })

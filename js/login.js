@@ -21,7 +21,7 @@ formulario.addEventListener ('submit', function(event){
         localStorage.setItem ('email',campoEmail.value)
         localStorage.setItem ('contra',campoContra.value)
         console.log (localStorage)
-
         this.submit()
+        window.location.href = "index.html";
     } 
 })
