@@ -1,15 +1,15 @@
-let recuperoStorage = localStorage.getItem ('itemsCarrito')
+let recuperoStorage1 = localStorage.getItem ('itemsCarrito')
 
 let seccionCarrito = document.querySelector ('.seccionCarrito')
 let elementos = ''
 
-if (recuperoStorage == null){
+if (recuperoStorage1 == null){
     let mensaje = 'Tu carrito esta vacio'
     let mostrarMensaje = document.querySelector ('.mensaje')
     mostrarMensaje.innerText = mensaje
 }else{
     carrito = []
-    carrito = JSON.parse (recuperoStorage)
+    carrito = JSON.parse(recuperoStorage1)
     for (i=0;i<carrito.length; i++) {
         let id = carrito [i]
         let url = `https://fakestoreapi.com/products/${id}`
