@@ -500,24 +500,25 @@ header {
 
 .carrito{
         display: flex;
-        flex-direction: row;
-        width: 80%;
-        margin-bottom: 1%;
-        border: 1px;
-        padding: 1%;
-        border-radius: 8px;
-        background-color: rgb(196, 229, 234);
+        flex-direction: column;
+        align-items: center;
 }
-.imgcarrito, .imgmaletincarrito{
+.imgcarrito{
         width: 20%;
         object-fit: contain;
 }
 
-.carritosec1, .carritosec2, .carritosec3{
+.carritosec{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-between;
     flex: 1%;
-    margin-left: 2%;
+    background-color: rgb(227, 236, 238);
+    width: 90%;
+    margin-bottom: 1%;
+    border: 1px;
+    padding: 1%;
+    border-radius: 8px;
 }
 
 .letratitulocarrito{
@@ -526,14 +527,24 @@ header {
     font-weight: 400;
     font-style: normal;
     letter-spacing: 0.03cm;
+    margin-left: 2%;
 }
 
-.letra1carrito{
+.letracarrito{
     font-family: "Roboto Slab", serif;
     font-optical-sizing: auto;
     font-weight: weight;
     font-style: normal;
     font-size: 80%;
+    margin-left: 1%;
+}
+.carritovacio{
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 100%;
+    color: brown;
 }
 
 .preciocart{
@@ -542,7 +553,8 @@ header {
     font-optical-sizing: auto;
     font-weight: weight;
     font-style: normal;
-    font-size: 80%;
+    font-size: 100%;
+    align-self: flex-end;
 }
 
 .impuestoscart{
@@ -609,7 +621,6 @@ header {
 }
 
 .botoncheckout{
-        border: none;
         background-color: rgba(0, 0, 0);
         color: rgba(255, 255, 255);
         padding: 5%;
@@ -621,6 +632,7 @@ header {
         font-family: "Archivo Black", sans-serif;
   font-weight: 400;
   font-style: normal;
+  text-decoration: none;
     }
 
  /*RESPONSIVE MAX 600 px*/
