@@ -1,5 +1,5 @@
 let recuperoStorage1 = localStorage.getItem ('itemsCarrito')
-
+let checkout = document.querySelector(".botoncheckout");
 let seccionCarrito = document.querySelector ('.seccionCarrito')
 let elementos = ''
 
@@ -7,6 +7,7 @@ if (recuperoStorage1 == null){
     let mensaje = 'Tu carrito esta vacio'
     let mostrarMensaje = document.querySelector ('.mensaje')
     mostrarMensaje.innerText = mensaje
+
 }else{
     carrito = []
     carrito = JSON.parse(recuperoStorage1)
@@ -18,18 +19,24 @@ if (recuperoStorage1 == null){
             return response.json ()
         })
         .then (function (data){
-            elementos += `<article>
-                            <img src = ${data.image}>
-                            <h3>Nombre: ${data.title}</h3>
-                            <p>Descripcion: ${data.description}</p>
-                            <p>Categoria: ${data.category}</p>
-                            <p>Price: ${data.price}</p>
+            elementos += `<article class="carritosec">
+                            <img class="imgcarrito" src = ${data.image}>
+                            <h3 class="letratitulocarrito">${data.title}</h3>
+                            <p class="letracarrito">${data.category}</p>
+                            <p class="letracarrito">${data.description}</p>
+                            <p class="preciocart">${data.price} USD</p>
                             </article>`
             seccionCarrito.innerHTML = elementos
         })
         .catch(function (e){
             console.log (e)
         })
+    
     }
 
 }
+
+checkout.addEventListener('click', function(){
+    localStorage.clear();
+    alert("Gracias por tu compra!");
+})
