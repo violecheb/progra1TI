@@ -19,25 +19,32 @@
         </div>
       <form action="" method="">
         <div>
-            <p class="direlogin">Nombre</p>
-            <input class="direloginusuario" type="name" name="nombre"  required>
+            <p class="direlogin">Email</p>
+            <input class="direloginusuario" type="email" name="email" id="email">
+            <p class="vaciomail formrechazado"></p>
         </div>
         <div>
-            <p class="contralogin">Dirección de correo electrónico</p>
-            <input class="contraloginusuario" type="email" name="emailregister" id="" required>
+            <p class="contralogin">Contraseña</p>
+            <input class="contraloginusuario" type="password" name="password" id="password">
+            <p class="vaciocontra formrechazado"></p>
+            <p class="vaciocontra2 formrechazado"></p>
         </div>
         <div>
-            <p class="contrareg">Contraseña</p>
-            <input class="contrareg2" type="password" name="contraregister"  required>
+            <p class="contrareg">Repetir contraseña</p>
+            <input class="contrareg2" type="password" name="contraregister"  id="password2">
+            <p class="vaciorecontra formrechazado"></p>
         </div>
-        <p class="terminosycond">Al registrarte, aceptas nuestros Términos y Condiciones, Política de Privacidad y de Cookies y unirte a nuestro programa de lealtad.</p>
-        <div class="suscribirsecheck">
-            <input class="checkreg" id="sesion" type="checkbox" name="sesion" value="Mantener la sesion iniciada"> 
-            <label class="susletra" for="sesion">
-                Suscríbete y no te pierdas nuestras recompensas <br>exclusivas, novedades personalizadas y lanzamientos. </label>
+        <div class="terminosycond">
+            <input id="sesion" type="checkbox" name="sesion" value="Acepto los terminos y condiciones"> 
+            <label for="sesion">
+                Acepto los Términos y Condiciones, Política de Privacidad y Cookies </label>
+        </div>
+        <p class="mensajecondiciones formrechazado"></p>
+        <div>
+            <button id="submit" class="botonreg">Registrarme</button>
         </div>
         <div>
-            <button class="botonreg"><a class="textoboti" href="index.html">Regístrate</a></button>
+            <p><a class="cuentalogin" href="login.html">Ya tengo cuenta</a></p>
         </div>
       </form>
     </section>
@@ -47,5 +54,6 @@
         <p>TRENDY-E y el logo «TRENDY-E» son marcas registradas por TRENDY AR en numerosas jurisdicciones alrededor del mundo.
             <br>© Copyright 2024 TRENDY AR. Todos los derechos reservados.</p>
             <p>by Delfina Masri & Violeta Cheb Terrab</p>
+    <script src="./js/register.js"></script>
 </body>
 </html>
