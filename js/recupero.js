@@ -20,9 +20,7 @@ formulario.addEventListener ('submit', function(event){
     }
     
     if (todosok){
-        
         let mensajeSubmit =  document.querySelector ('.mensajeSubmit')
-        
         mensajeSubmit.innerText = 'Recibirás un email con las instrucciones para recuperar tu contraseña'
         let boton = document.querySelector ('.botonreiniciar')
         console.log("boton: ", boton);
