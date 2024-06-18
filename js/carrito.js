@@ -10,7 +10,7 @@ if (recuperoStorage == null){
 }else{
     carrito = []
     carrito = JSON.parse (recuperoStorage)
-    for (i=0,i<carrito.lenght, i++) {
+    for (i=0;i<carrito.length; i++) {
         let id = carrito [i]
         let url = `https://fakestoreapi.com/products/${id}`
         fetch (url)

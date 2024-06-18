@@ -32,10 +32,10 @@ fetch(url)
 
 
 let carrito = []
-let favorito = document.querySelector ('.favorito')
-favorito.addEventListener ('click', function(evento){
+let favorito = document.querySelector ('.addCart')
+favorito.addEventListener('click', function(evento){
     evento.preventDefault()
-    carrito.push (id)
+    carrito.push(id)
     let carritoString = JSON.stringify (carrito)
     localStorage.setItem ('itemsCarrito', carritoString)
 })
