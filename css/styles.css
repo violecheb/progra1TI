@@ -215,6 +215,7 @@ header {
 }
 
 .fotoProducto{
+    padding: 3%;
     width: 80%;
     height: auto;
     object-fit: contain;
@@ -252,6 +253,7 @@ header {
     font-weight: 400;
     font-style: normal;
 }
+
 /*ESTILOS LOG IN*/
 .bodylog {
     background-color: rgb(59, 139, 151, 0.50);
