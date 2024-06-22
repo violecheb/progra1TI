@@ -21,7 +21,7 @@ formulario.addEventListener("submit", function(event){
         let mensajeContraseña2 = document.querySelector(".vaciocontra2")
         mensajeContraseña2.innerText = "Debe ingresar al menos 6 caracteres"
         todosok = false
-    } else
+    }
     if (campocontraseña.value != camporecontraseña.value){
         let mensajeRecontraseña =document.querySelector(".vaciorecontra");
         mensajeRecontraseña.innerText = "Las contraseñas no coinciden"

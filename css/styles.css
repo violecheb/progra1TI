@@ -68,13 +68,17 @@ header {
     justify-content: space-around;
 }
 
-.catmujer {
-    color: rgb(0, 0, 0);
-}
-
-.nosubrayado {
+.mensajeSaludo, .logout{
+    list-style-type: none;
     text-decoration: none;
-    color: white;
+    color: rgb(255, 0, 0);
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-left: 2%;
+}
+.logout{
+    color: blue;
 }
 
 /*ESTILOS FOOTER*/
@@ -90,8 +94,6 @@ header {
 
 }
 
-
-/*ESTILOS LETRAS*/
 .roboto{
     font-family: "Roboto Slab", serif;
     font-optical-sizing: auto;
@@ -158,19 +160,6 @@ header {
     font-style: normal;
 }
 
-.boton1{
-    border: none;
-    background-color: rgba(0, 0, 0);
-    color: rgba(255, 255, 255);
-    padding: 5%;
-    text-decoration: none;
-    font-size: 80%;
-    border-radius: 12px;
-    font-family: "Archivo Black", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-}
-
 .boton2{
     order: none;
     background-color: rgba(0, 0, 0);
@@ -184,22 +173,6 @@ header {
     font-style: normal;
     margin-top: 10%;
     border: none;
-}
-
-.precioanterior {
-    text-decoration: line-through;
-    font-family: "Roboto Slab", serif;
-    font-optical-sizing: auto;
-    font-weight: weight;
-    font-style: normal;
-}
-
-.precionuevo{
-    color: red;
-    font-family: "Roboto Slab", serif;
-    font-optical-sizing: auto;
-    font-weight: weight;
-    font-style: normal;
 }
 
 /* ESTILOS PRODUCTO */
@@ -301,7 +274,7 @@ header {
     color: black;
 }
 
-.direlogin {
+.direlogin, .contralogin {
     color: rgb(53, 50, 50);
     font-family: "Roboto Slab", serif;
     font-optical-sizing: auto;
@@ -312,27 +285,12 @@ header {
     font-size: 85%;
 }
 
-.direloginusuario {
+.direloginusuario, .contraloginusuario {
     border-radius: 5px;
     width: 100%;
     margin-left: -4%;
 }
 
-.contralogin {
-    color: rgb(53, 50, 50);
-    font-family: "Roboto Slab", serif;
-    font-optical-sizing: auto;
-    font-weight: weight;
-    font-style: normal;
-    margin-left: -4%;
-    font-size: 85%;
-}
-
-.contraloginusuario {
-    border-radius: 5px;
-    width: 100%;
-    margin-left: -4%;
-}
 .cuentalogin {
     color: rgb(53, 50, 50);
     font-size: 90%;
@@ -362,7 +320,6 @@ header {
 
 /*ESTILOS REGISTER*/
 .formreg {
-
     background-color: aliceblue;
     width: 30%;
     padding: 3%;
@@ -375,13 +332,12 @@ header {
     color: black;
     text-decoration: none;
 }
-
 .regiregi {
     color: black;
     text-transform: uppercase;
 }
 
-.contrareg {
+.contrareg, .terminosycond {
     color: rgb(53, 50, 50);
     font-family: "Roboto Slab", serif;
     font-optical-sizing: auto;
@@ -397,15 +353,6 @@ header {
     margin-left: -4%;
 }
 
-.terminosycond {
-    color: rgb(53, 50, 50);
-    font-family: "Roboto Slab", serif;
-    font-optical-sizing: auto;
-    font-weight: weight;
-    font-style: normal;
-    margin-left: -4%;
-    font-size: 80%;
-}
 .formrechazado{
     color: rgb(239, 0, 0);
     font-family: "Roboto Slab", serif;
@@ -450,7 +397,7 @@ header {
     margin-left: -4%;
 }
 
-.botonrecuperar {
+.botonrecuperar, .botonreiniciar {
     border: none;
     background-color: rgba(0, 0, 0);
     color: rgba(255, 255, 255);
@@ -467,22 +414,7 @@ header {
 }
 
 .botonreiniciar {
-    border: none;
     background-color: aliceblue;
-    padding: 5%;
-    font-size: 100%;
-    border-radius: 12px;
-    margin-top: 7%;
-    margin-left: -4%;
-    margin-bottom: -5%;
-    font-family: "Archivo Black", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  width: 100%;
-}
-.textobotrei{
-    color: black;
-    text-decoration: none;
 }
 
 /*ESTILOS CARRITO*/
@@ -493,18 +425,13 @@ header {
         padding: 1%;
 }
 
-.carrito-container{
+.carrito-container, .carrito{
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
 }
 
-.carrito{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-}
 .imgcarrito{
         width: 20%;
         object-fit: contain;
@@ -557,69 +484,6 @@ header {
     font-style: normal;
     font-size: 100%;
     align-self: flex-end;
-}
-
-.impuestoscart{
-    font-family: "Roboto Slab", serif;
-    font-optical-sizing: auto;
-    font-weight: weight;
-    font-style: normal;
-    font-size: 80%;
-}
-
-.talle{
-    font-weight: bold;
-    font-family: "Roboto Slab", serif;
-    font-optical-sizing: auto;
-    font-weight: weight;
-    font-style: normal;
-    font-size: 80%;
-}
-.talle2{
-    text-transform: capitalize;
-    font-family: "Roboto Slab", serif;
-    font-optical-sizing: auto;
-    font-weight: weight;
-    font-style: normal;
-    font-size: 80%;
-}
-.cantidad{
-    font-weight: bold;
-    font-family: "Roboto Slab", serif;
-    font-optical-sizing: auto;
-    font-weight: weight;
-    font-style: normal;
-    font-size: 80%;
-}
-
-.resumencompra{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    font-family: "Roboto Slab", serif;
-    font-optical-sizing: auto;
-    font-weight: weight;
-    font-style: normal;
-    font-size: 80%;
-    background-color: rgba(217, 217, 217, 0.3);
-    padding: 2%;
-    border: 1 px;
-    border-radius: 8px;
-    box-sizing: border-box;
-}
-
-.textoresumen{
-    font-family: "Roboto Slab", serif;
-    font-weight: bold;
-    font-size: 150%;
-    margin-bottom: 1%;
-}
-
-.resumensubtotal, .resumen{
-    display: flex;
-    width: 100%;
-    margin-bottom: 1%;
-    justify-content: space-between;
 }
 
 .botoncheckout{

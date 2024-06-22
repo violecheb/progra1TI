@@ -2,7 +2,7 @@ let recuperoStorage2 = localStorage.getItem ('email')
 let recuperoStorage3 = localStorage.getItem ('contra')
 
 if (recuperoStorage2 != null){
-    let mensajeSaludo = `Bienvenido/a: ${recuperoStorage2}!`
+    let mensajeSaludo = `Bienvenido/a: ${recuperoStorage2} !!!`
     let mostrarMensaje2 = document.querySelector ('.mensajeSaludo')
     mostrarMensaje2.innerText = mensajeSaludo
     let logout = document.querySelector ('.header2')
