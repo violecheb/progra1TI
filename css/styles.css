@@ -52,7 +52,6 @@ header {
     background-color: rgba(234, 234, 234, 0.2);
 }
 
-
 .categorias {
     list-style-type: none;
     text-decoration: none;
@@ -91,7 +90,6 @@ header {
 .pie2{
     margin-top: 4%;
     font-size: 70%;
-
 }
 
 .roboto{
@@ -102,7 +100,6 @@ header {
 }
 
 /*ESTILOS HOME*/
-
 .titulosechome {
     font-family: "Montserrat Subrayada", sans-serif;
     font-weight: 700;
@@ -112,7 +109,6 @@ header {
 }
 
 /*ESTILOS HOME Y CATEGORIA(COMPARTIDOS)*/
-
 .seccion{
     display: flex;
     flex-direction: row;
@@ -417,6 +413,9 @@ header {
     background-color: aliceblue;
 }
 
+.textobotrei{
+    color: black;
+}
 /*ESTILOS CARRITO*/
 .carritocompras{
         font-family: "Montserrat Subrayada", sans-serif;
@@ -504,14 +503,6 @@ header {
  /*RESPONSIVE MAX 600 px*/
  @media only screen and (max-width: 600px){
     /*HEADER*/
-    .sectionhome2{
-        flex-direction: column;
-    }
-    .homearticles{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
     .logo{
         width: 20%;
     }
@@ -527,9 +518,6 @@ header {
     }
     .menu1{
         font-size: 80%;
-    }
-    .w-25{
-        width: 100%;
     }
     /*HOME Y CATEGORY*/
     .productos{
@@ -560,13 +548,12 @@ header {
         margin-top: 20%;
     }
     /*PRODUCTO*/
-    .imagendes{
+    .fotoProductoContainer{
         width: 100%;
     }
-    .p1{
-        font-size: 200%;
+    .infoproducto{
+        width: 100%;
     }
-
 }
 
  /*RESPONSIVE MIN 600 px MAX 1100 px*/
@@ -574,13 +561,6 @@ header {
     /* HOME Y CATEGORY */
     .productos{
         width: 33%;
-    }
-    /* PRODUCTOS */
-    .imagendes{
-        width: 100%;
-    }
-    .p1{
-        font-size: 200%;
     }
     /* LOG IN */
     .formlogin{
